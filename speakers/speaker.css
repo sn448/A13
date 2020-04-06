@@ -6,6 +6,47 @@ html {
     margin:0;
     padding: 0;
 }
+/* the styles for the navigation menu*/
+#nav_menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#nav_menu li {
+    float: left;
+}
+#nav_menu li a {
+    display: inline-block;
+    text-align: center;
+    padding: 1em 0em;
+    text-decoration: none;
+    color: white;
+    background-color: #800000;
+    font-weight: bold;
+    width: 160px;
+    position: relative;
+}
+.current {
+    color: yellow !important;
+}
+/* the styles for the submenu */
+#nav_menu li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+#nav_menu li ul li {
+    float: none;
+    display: block;
+}
+#nav_menu li:hover > ul {
+    display: block;
+}
+#nav_menu li > ul::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
 /* the styles for the body */
 body {
     font-family: Arial, Helvetica, sans-serif;

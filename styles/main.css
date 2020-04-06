@@ -39,10 +39,10 @@ html {
 	float: none;
 	display: block;
 }
-#nav_menu:hover > li ul {
+#nav_menu li:hover > ul {
 	display: block;
 }
-#nav_menu > ul::after {
+#nav_menu li > ul::after {
 	content: " ";
 	display: block;
 	clear: both;
