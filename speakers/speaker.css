@@ -1,0 +1,108 @@
+/* the styles for the elements */
+html {
+    background-color: white;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+/* the styles for the body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 800px;
+    margin: 0px auto 0px auto;
+    border: solid 3px #931420;
+    background-color: #fffded;
+}
+
+/* the styles for the header */
+header {
+    border-bottom: solid 3px #931420;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+    background: linear-gradient(30deg, #f6bb73 0%, floralwhite 30%, white 50%, floralwhite 80%, #f6bb73 100%);
+}
+header img {
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+header h2 {
+    font-size: 170%;
+    color: #800000;
+}
+header h3 {
+    font-size: 130%;
+    font-style: italic;
+}
+.shadow {
+    text-shadow: 1px 1px #800000;
+}
+/* the styles for the section*/
+section {
+    width: 525px;
+    float: right;
+    clear: left;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+section h1 {
+    font-size: 150%;
+    padding-top: 0.5em;
+    padding-bottom: 0.25em;
+    margin: 0;
+    color: #800000;
+}
+section article {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+section article img {
+    float: right;
+    margin: 1px 1px 3em 1.5em;
+    border: solid 1px black;
+}
+section h2 {
+    font-size: 130%;
+    padding-top: 0em;
+    padding-bottom: 0.25em;
+}
+section p {
+    padding-bottom:0.5em;
+}
+/*styles for the aside*/
+aside {
+    width: 215px;
+    float: right;
+    clear: left;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+aside h2 {
+    font-size: 130%;
+    color: #800000;
+    padding-top: 0.5em;
+    padding-bottom: 0.25em;
+}
+aside h3 {
+    font-size: 105%;
+    padding-bottom: 0.25em;
+}
+aside img {
+    padding-bottom: 1em;
+}
+aside a:hover {
+    font-style: italic;
+}
+
+/* the styles for the footer */
+footer p {
+    text-align: center;
+    background-color: #931420;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    clear: both;
+}
